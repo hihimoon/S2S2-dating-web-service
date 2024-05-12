@@ -1,0 +1,361 @@
+body {
+	color: #5a5a5a;
+}
+
+.comm .title {
+	margin-bottom: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.comm .checkout__input textarea {
+	height: 100px;
+	resize: none;
+	padding-top: 10px;
+}
+
+.comm .checkout__input {
+	margin-bottom: 50px;
+}
+
+
+
+.comm .form-control {
+	width: 100%;
+	height: 46px;
+	border: 1px solid #ebebeb;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #5a5a5a;
+	border-radius: 4px;
+}
+
+
+.comm .site-btn {
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+.comm .checkout__input button {
+	background-color: #fff;
+	color: #b2b2b2;
+	text-align: left;
+}
+
+.comm textarea::placeholder {
+	color: #b2b2b2;
+}
+
+.comm.checkout__form {
+	margin-bottom: 45px;
+}
+
+.comm.checkout__form p {
+	color: #5a5a5a;
+	font-size: 18px;
+}
+
+
+.comm.checkout__form p span {
+	color: #F69D9D;
+}
+
+
+/*---------------------
+  Hero
+-----------------------*/
+
+
+.hero {
+	display: flex;
+	position: relative;
+}
+
+
+.hero__search__form {
+	width: 600px;
+	height: 51px;
+	border: 1px solid #ebebeb;
+	position: relative;
+	float: left;
+	background-color: #fff;
+
+}
+
+
+.comm_list .hero__search__form {
+	margin: 0 auto 60px;
+}
+
+.comm_list .hero__search__form form input {
+	width: 70%;
+	padding-left: 85px;
+}
+
+.hero__search__form form input {
+	border: none;
+	height: 48px;
+	font-size: 16px;
+	color: #1c1c1c;
+}
+
+
+.hero__search__form form input:focus {
+	outline: none;
+}
+
+.hero__search__form form input::placeholder {
+	color: #b2b2b2;
+}
+
+.hero__search__form form button {
+	position: absolute;
+	right: 0;
+	top: -1px;
+	height: 50px;
+}
+
+
+
+.hero__text span {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 4px;
+	color: #7fad39;
+}
+
+.hero__text h2 {
+	font-size: 46px;
+	color: #252525;
+	line-height: 52px;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+.hero__text p {
+	margin-bottom: 35px;
+}
+
+
+.filter__sort .nice-select {
+
+	border: none;
+
+	/*  height: 0;*/
+	padding-left: 18px;
+	padding-right: 30px;
+	font-size: 16px;
+	color: #1c1c1c;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+
+
+.filter__sort .nice-select:focus {
+	outline: none;
+}
+
+.hero__search__form form .filter__sort {
+	background-color: #fff;
+	width: 20%;
+	float: left;
+	font-size: 16px;
+	color: #1c1c1c;
+	font-weight: 700;
+	padding-left: 18px;
+	padding-top: 11px;
+	position: relative;
+}
+
+.hero__search__form form .filter__sort:after {
+	position: absolute;
+	right: -50px;
+	top: 14px;
+	height: 20px;
+	width: 1px;
+	background: #000000;
+	opacity: 0.1;
+	content: "";
+}
+
+/*.comm_list .hero__search__form .btn.btn-outline-primary {
+	position: absolute;
+	right: 0;
+}*/
+
+.btn.btn-outline-primary {
+
+	border: 1px solid #F69D9D;
+	background-color: #fff;
+	height: 50px;
+	margin-left: 30px;
+	margin-right: 15px;
+	font-weight: 500;
+	color: #5a5a5a;
+	position: absolute;
+	right: 0;
+
+}
+
+
+
+
+/*---------------------
+  comm Details
+-----------------------*/
+
+.comm-details {
+	padding-top: 80px;
+}
+
+
+
+.comm__details__text p {
+	margin-bottom: 16px;
+}
+
+.comm__details__text .primary-btn {
+	padding: 16px 28px 14px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+}
+
+
+.comm-details .btn-outline-primary {
+	margin-left: 0px;
+}
+
+
+.comm-details .container {
+	margin-bottom: 50px;
+}
+
+
+.comm-details .comm-content {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+
+.comm-details .comm-content p {
+	color: #5a5a5a;
+
+
+}
+
+
+.comm-details .report {
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+
+.comm-details .report:hover {
+	color: #F69D9D;
+}
+
+.container {
+	position: relative;
+}
+
+
+
+.comm-details .form-check {
+	margin-left: 30px;
+}
+
+.comm-details .modal-title {
+	font-size: 24px;
+}
+
+.comm-details .modal-text p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.comm-details #frm02 {
+	margin-top: 20px
+}
+
+.comm-details label {
+	margin-left: 0px;
+}
+
+.comm-details .form-label {
+	margin-left: 10px;
+}
+
+.hero__search__form.admin {
+	width: 454px;
+	border: 0;
+}
+
+.hero__search__form.admin input {
+	border: 1px solid #ebebeb;
+	padding: 20px;
+}
+
+
+
+.hero__search__form.admin #startDate {
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.hero__search__form.admin button {
+	width: 120px;
+}
+
+.hero__search__form.admin {
+	margin-top: 20px;
+}
+
+.hero__search__form.admin span {
+	position: absolute;
+	top: 10px;
+	left: 391px;
+	color: #5a5a5a;
+}
+
+.hero__search__form.admin label {
+	color: #5a5a5a;
+	padding: 0;
+	margin: 0;
+}
+
+.admin_page h2 {
+	margin-bottom: 20px;
+}
+
+.card-body .title {
+	margin-bottom: 15px;
+}
+
+.card-body .fw-bold {
+	margin-bottom: 8px;
+}
+
+.admin_member .table-success {
+	background-color: #F69D9D;
+
+}
+
+.admin_member .table-success th {
+	font-size: 16px;
+	font-weight: 600;
+	background-color: #616161;
+	color: #fff;
+
+}
+
+.admin_member .btn-success {
+	border-color: #F69D9D;
+	background-color: #F69D9D;
+
+}
